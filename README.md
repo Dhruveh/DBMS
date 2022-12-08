@@ -60,7 +60,7 @@ SELECT * FROM stu WHERE STU_NAME like 'H_%';//only first char
 
 SELECT * FROM stu WHERE STU_NAME IN('Harpal','Shreyansh');// only name
 
-UPDATE stu SET STU_NAME='Dhruv'WHERE RS=1000;//fild update
+UPDATE stu SET STU_NAME='Dhruv' WHERE RS=1000;//fild update
 
 SELECT * FROM products WHERE company NOT IN (HP,ASUS,DELL);//othae company in Query
 
